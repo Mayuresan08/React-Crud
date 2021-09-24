@@ -1,0 +1,10 @@
+.error{
+    color: red;
+}
+
+input{
+    width: 15rem;
+    height: 2rem;
+    border: 1px solid blue;
+    
+}

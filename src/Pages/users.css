@@ -1,0 +1,75 @@
+.outercontainer{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.innercontainer{
+    /* display: flex;
+    justify-content: center; */
+    width: 75%;
+    background-color: white;
+}
+.card{
+    position: relative;
+    padding: 10px;
+    margin-bottom: 1rem;
+    /* border:1px solid black; */
+}
+.cardImage{
+    width: 100%;
+    height: 7rem;
+    object-fit:cover;
+    border-radius: 5px;
+}
+.cardBody{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 10rem;
+    background-color: rgb(173, 177, 230);
+
+}
+.userImage{
+    border-radius: 50%;
+}
+
+.bodyImage{
+    position: absolute;
+    top:40px;
+    left:20px;
+}
+.imageName{
+    margin-left: 10px;
+    color: rgb(44, 44, 136);
+}
+.imageButton{
+    margin-left: 10px;
+    background-color:rgb(44, 44, 136);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+    width: 5rem;
+    margin-top: 1rem;
+}
+.imageButton:hover{
+    cursor: pointer;
+}
+.imageButton:active
+{
+    background-color: black;
+}
+.bodyDetails{
+    position: relative;
+    left: 30%;
+    width: 15rem;
+}
+.bodyButtons{
+    position: relative;
+    left: 35%;
+    width: 10rem;
+}
+label{
+    display: inline-block;
+    min-width: 20rem;
+}
