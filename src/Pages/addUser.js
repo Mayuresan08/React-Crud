@@ -2,7 +2,7 @@ import "./addUser.css"
 import {Formik,Form,Field,ErrorMessage} from "formik";
 import * as Yup from 'yup';
 import axios from "axios";
-import { useHistory,useNavigate } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import { useContext } from "react";
 import { UserContext } from "../App";
 export default function AddUser()

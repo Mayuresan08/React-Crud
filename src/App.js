@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import NavHead from './Pages/nav';
 import "./App.css"
 import axios from "axios";
-import { BrowserRouter,Route,Link,Switch,Redirect ,useLocation} from "react-router-dom";
+import { Route,Switch,Redirect ,useLocation} from "react-router-dom";
 import User from "./Pages/users";
 import Profile from "./Pages/profile";
 import EditProfile from "./Pages/editProfile";
