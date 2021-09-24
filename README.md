@@ -4,5 +4,3 @@
 - react-router-dom for routing between pages
 - Axios for fetching API
 
-
-## [Deployed Link](https://mayu-react-crud1.netlify.app/users)
